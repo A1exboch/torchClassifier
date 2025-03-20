@@ -23,13 +23,4 @@ TODO
 Here is an example of images and the prediction that the model made with them.
 
 ![visualized_predictions](https://github.com/user-attachments/assets/b114738e-7adc-46f2-bea6-b11b95d53d41)
-![visualized predictions](https://github.com/A1exboch/torchClassifier/edit/main/README.md#:~:text=10epochs-,visualized_predictions,-.png)
-
-Here is a prediciton with 10 epochs and 12 predictions
-
-![visualized_predictions](/Users/alexbochjr/Desktop/torchClassifier/predictions/10epochs/visualized_predictions_12.png)
-
-Here is 50 predictions when the model was trained on 50 epochs
-
-![alt text](https://github.com/A1exboch/torchClassifier/edit/main/README.md#:~:text=visualized_predictions_50_epoch50)
 
