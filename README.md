@@ -1,9 +1,12 @@
 ### Classification Model Mathematics
 This repository explains the math behind Classification Models. 
 Chat-GPT was used to generate a Classification Model and its it's associated mathematics. 
-With the information provided, we strive to gain a deeper undestanding of how Classification models work, 
+In this repository, we strive to gain a deeper undestanding of how Classification models work, 
 as well how one would implement such a model in Pytorch.
-Above all else, this repository serves as a learning tool for it's creator.
+
+The creator of this repository has used Chat-GPT to write mathematics and code for this project. 
+He takes no credit for anything done in it.
+This repository above all else serves as a learning tool and an exercise in teaching.
 
 ### Problem Definition
 In this project, we want to imput an image that contains a number 1-10 and "classify" that image. 
