@@ -35,7 +35,7 @@ criterion = nn.CrossEntropyLoss() # Loss function for classifciation
 optimizer = optim.Adam(model.parameters(), lr=0.001)
 
 # 4. Training loop
-num_epochs = 5
+num_epochs = 50
 for epoch in range(num_epochs):
     running_loss = 0.0
     for inputs, labels in trainloader:
@@ -79,14 +79,18 @@ def visualize_predictions():
     _, predicted = torch.max(outputs, 1)
 
     # Plot images with their predicted labels
-    fig, axes = plt.subplots(1, 5, figsize=(12, 3))
-    for i in range(5):
-        ax = axes[i]
+    fig, axes = plt.subplots(5, 10, figsize=(12, 6))
+    for i in range(50):
+        row = i // 10 
+        col = i % 10
+        ax = axes[row, col]
         ax.imshow(images[i].numpy().squeeze(), cmap="gray")
-        ax.set_title(f"Pred: {predicted[i].item()}")
+        ax.set_title(f"Pred: {predicted[i].item()}")     
         ax.axis('off')
+        
     #plt.show()
-    plt.savefig('visualized_predictions.png', bbox_inches='tight')
+    plt.subplots_adjust(wspace=0.5, hspace=0.10)
+    plt.savefig('visualized_predictions_50_epoch50.png', bbox_inches='tight')
 
     plt.show()
 
