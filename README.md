@@ -15,3 +15,7 @@ Here is an example of images and the prediction that the model made with them.
 
 ![visualized_predictions](https://github.com/user-attachments/assets/b114738e-7adc-46f2-bea6-b11b95d53d41)
 
+Here is a prediciton with 10 epochs and 12 predictions
+
+[![visualized_predictions](https://github.com/A1exboch/torchClassifier/edit/main/README.md#:~:text=visualized_predictions_12)]
+
