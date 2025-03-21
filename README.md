@@ -15,8 +15,11 @@ In this project, we want to imput an image that contains a number 1-10 and "clas
 MATH
 ====
 
-### Layers
-TODO
+### Forward Pass
+
+The inputs we are training on are images. The images in the MNIST dataset are 28x28 pixels. We input into the model 
+
+$\textbf{x} = $
 
 ### Predictions
 
