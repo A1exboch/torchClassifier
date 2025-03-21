@@ -24,3 +24,11 @@ Here is an example of images and the prediction that the model made with them.
 
 ![visualized_predictions](https://github.com/user-attachments/assets/b114738e-7adc-46f2-bea6-b11b95d53d41)
 
+Here is an example of the model being trained on 50 Epochs with 50 total predictions
+
+![visualized_predictions_50_epoch50](https://github.com/user-attachments/assets/7f30c4ac-bbdb-41e9-ac67-c972a67f0618)
+
+
+
+
+
